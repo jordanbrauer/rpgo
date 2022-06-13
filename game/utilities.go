@@ -21,7 +21,7 @@ func Spawn(world World, obj, tex string, x, y, z, scale float32) entity.Entity {
 	world.AttachComponent(object, &component.Texture{Loaded: texture})
 	world.AttachComponent(object, &component.Position{
 		Vector3: ray.NewVector3(x, y, z),
-		Scale:   1.0,
+		Scale:   scale,
 	})
 
 	return object
