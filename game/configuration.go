@@ -7,7 +7,6 @@ import (
 )
 
 type Configuration struct {
-	Version  string
 	Database DatabaseConfiguration
 	FPS      int32
 	Window   WindowConfiguration
