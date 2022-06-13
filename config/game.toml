@@ -1,0 +1,12 @@
+fps     = 60
+
+[window]
+
+title      = 'rpg'
+width      = 1280
+height     = 740
+fullscreen = false
+
+[database]
+
+dsn = 'world.db'
